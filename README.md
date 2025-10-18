@@ -27,7 +27,7 @@ The pipeline demonstrates distributed data preprocessing, statistical analysis, 
 
 ## Spark Pipeline Workflow
 
-### **Stage 1 – Numeric Preprocessing (Aakash)**
+### **Stage 1 – Numeric Preprocessing**
 **Goal:** Clean and prepare numeric features.  
 **Steps:**
 1. Load CSV → Spark DataFrame.  
@@ -42,7 +42,7 @@ Cleaned numeric dataset (2,149 records) ready for categorical preprocessing.
 
 ---
 
-### **Stage 2 – Categorical Preprocessing (Gideon)**
+### **Stage 2 – Categorical Preprocessing**
 **Goal:** Handle categorical data and assemble modeling features.  
 **Steps:**
 1. Load `stage1_numeric`.  
@@ -59,7 +59,7 @@ Standardized, encoded feature store ready for modeling.
 
 ---
 
-### **Stage 3 – Logistic Regression (Niraj)**
+### **Stage 3 – Logistic Regression**
 **Goal:** Binary classification of Alzheimer’s vs. non-Alzheimer’s using Spark ML.  
 **Steps:**
 1. Load `stage2_featurestore`.  
@@ -79,7 +79,7 @@ High ROC-AUC demonstrates strong separation ability of early Alzheimer’s sympt
 
 ---
 
-### **Stage 4 – Random Forest (Aditya)**
+### **Stage 4 – Random Forest**
 **Goal:** Ensemble modeling and feature importance.  
 **Steps:**
 1. Load `stage2_featurestore`.  
