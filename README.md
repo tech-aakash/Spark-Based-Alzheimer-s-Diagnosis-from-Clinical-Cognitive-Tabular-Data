@@ -89,7 +89,7 @@ High ROC-AUC demonstrates strong separation ability of early Alzheimer’s sympt
 5. Extract top predictive features for medical interpretation.
 
 ## 🌲 Random Forest Results
-![Random Forest Output](screenshots/Random Forest Accuracy.png)
+![Random Forest Output](screenshots/Random-Forest-Accuracy.png)
 
 **Outcome:**  
 Random Forest provided improved robustness and interpretability compared to Logistic Regression.
