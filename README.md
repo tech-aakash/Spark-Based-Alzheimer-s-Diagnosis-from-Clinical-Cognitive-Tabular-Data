@@ -1,12 +1,12 @@
-# 🧠 Spark-Based Alzheimer’s Diagnosis from Clinical/Cognitive Tabular Data
+# Spark-Based Alzheimer’s Diagnosis from Clinical/Cognitive Tabular Data
 
-## 📘 Overview
+## Overview
 This project implements a **Spark-based pipeline** for early-stage diagnosis of Alzheimer’s disease (AD) using clinical and cognitive tabular data.  
 The pipeline demonstrates distributed data preprocessing, statistical analysis, and model training across **single-node and multi-node** Spark clusters.
 
 ---
 
-## ⚙️ Code Files
+## Code Files
 | File | Description |
 |------|--------------|
 | `01_preproc_numeric.py` | Numeric data preprocessing — load CSV, schema checks, deduplication, imputation, range validation |
@@ -18,7 +18,7 @@ The pipeline demonstrates distributed data preprocessing, statistical analysis, 
 
 ---
 
-## 🧪 Dataset
+## Dataset
 **Source:** [Kaggle - Alzheimer’s Disease Dataset](https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset)  
 **Records:** 2,149 rows  
 **Features:** 34 columns (clinical + cognitive attributes)
