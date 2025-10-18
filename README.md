@@ -25,7 +25,7 @@ The pipeline demonstrates distributed data preprocessing, statistical analysis, 
 
 ---
 
-## 🚀 Spark Pipeline Workflow
+## Spark Pipeline Workflow
 
 ### **Stage 1 – Numeric Preprocessing (Aakash)**
 **Goal:** Clean and prepare numeric features.  
@@ -37,7 +37,7 @@ The pipeline demonstrates distributed data preprocessing, statistical analysis, 
 5. Perform basic range/outlier validation.  
 6. Write cleaned table → `stage1_numeric`.
 
-✅ **Outcome:**  
+**Outcome:**  
 Cleaned numeric dataset (2,149 records) ready for categorical preprocessing.
 
 ---
@@ -54,7 +54,7 @@ Cleaned numeric dataset (2,149 records) ready for categorical preprocessing.
 5. Combine using `VectorAssembler`.  
 6. Save as `stage2_featurestore`.
 
-✅ **Outcome:**  
+**Outcome:**  
 Standardized, encoded feature store ready for modeling.
 
 ---
@@ -72,7 +72,7 @@ Standardized, encoded feature store ready for modeling.
    - F1-Score = **0.4937**  
    - AUC = **0.9002**
 
-✅ **Outcome:**  
+**Outcome:**  
 High ROC-AUC demonstrates strong separation ability of early Alzheimer’s symptoms.
 
 ---
@@ -86,7 +86,7 @@ High ROC-AUC demonstrates strong separation ability of early Alzheimer’s sympt
 4. Evaluate using Accuracy, F1, and AUC.  
 5. Extract top predictive features for medical interpretation.
 
-✅ **Outcome:**  
+**Outcome:**  
 Random Forest provided improved robustness and interpretability compared to Logistic Regression.
 
 ---
@@ -95,13 +95,13 @@ Random Forest provided improved robustness and interpretability compared to Logi
 
 | **Configuration** | **Workers** | **Stage 1 (Numeric)** | **Stage 2 (Categorical)** | **Stage 3 (LR)** | **Stage 4 (RF)** | **Total Time (s)** | **Total Time (min)** |
 |--------------------|-------------|------------------------|---------------------------|------------------|------------------|--------------------|----------------------|
-| 🖥 **Single Node (Standalone)** | 1 | 82 s | 74 s | 64 s | 76 s | **296 s** | **4.93 min** |
-| 🧩 **Multi-Node (2 Workers)** | 2 | 105 s | 85 s | 31 s | 51 s | **272 s** | **4.53 min** |
-| ⚡ **Multi-Node (3 Workers)** | 3 | 88 s | 50 s | 27 s | 84 s | **249 s** | **4.15 min** |
+| **Single Node (Standalone)** | 1 | 82 s | 74 s | 64 s | 76 s | **296 s** | **4.93 min** |
+| **Multi-Node (2 Workers)** | 2 | 105 s | 85 s | 31 s | 51 s | **272 s** | **4.53 min** |
+| **Multi-Node (3 Workers)** | 3 | 88 s | 50 s | 27 s | 84 s | **249 s** | **4.15 min** |
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 Include screenshots showing:
 - Stage 1 & 2 preprocessing outputs  
 - Stage 3 Logistic Regression results  
