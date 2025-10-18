@@ -71,6 +71,8 @@ Standardized, encoded feature store ready for modeling.
    - Accuracy = **0.6211**  
    - F1-Score = **0.4937**  
    - AUC = **0.9002**
+## 📉 Logistic Regression Results
+![Logistic Regression Output](screenshots/Logistic Regression Accuracy.png)
 
 **Outcome:**  
 High ROC-AUC demonstrates strong separation ability of early Alzheimer’s symptoms.
@@ -85,6 +87,9 @@ High ROC-AUC demonstrates strong separation ability of early Alzheimer’s sympt
 3. Train Random Forest (`numTrees=100`, `maxDepth=10`).  
 4. Evaluate using Accuracy, F1, and AUC.  
 5. Extract top predictive features for medical interpretation.
+
+## 🌲 Random Forest Results
+![Random Forest Output](screenshots/Random Forest Accuracy.png)
 
 **Outcome:**  
 Random Forest provided improved robustness and interpretability compared to Logistic Regression.
