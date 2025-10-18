@@ -91,7 +91,7 @@ Random Forest provided improved robustness and interpretability compared to Logi
 
 ---
 
-## 📊 Performance Comparison
+## Performance Comparison
 
 | **Configuration** | **Workers** | **Stage 1 (Numeric)** | **Stage 2 (Categorical)** | **Stage 3 (LR)** | **Stage 4 (RF)** | **Total Time (s)** | **Total Time (min)** |
 |--------------------|-------------|------------------------|---------------------------|------------------|------------------|--------------------|----------------------|
