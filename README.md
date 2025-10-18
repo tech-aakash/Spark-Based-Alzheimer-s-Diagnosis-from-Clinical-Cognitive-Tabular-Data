@@ -72,7 +72,7 @@ Standardized, encoded feature store ready for modeling.
    - F1-Score = **0.4937**  
    - AUC = **0.9002**
 ## 📉 Logistic Regression Results
-![Logistic Regression Output](screenshots/Logistic Regression Accuracy.png)
+![Logistic Regression Output](screenshots/Logistic-Regression-Accuracy.png)
 
 **Outcome:**  
 High ROC-AUC demonstrates strong separation ability of early Alzheimer’s symptoms.
